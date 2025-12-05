@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccentAceAI - AI Language Tutor</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar glassmorphism sticky">
+        <div class="nav-container">
+            
+            <div class="logo">
+                <i class="fas fa-language logo-icon"></i>
+                <span class="logo-text">AccentAce<span class="logo-highlight">AI</span></span>
+            </div>
+            
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#" class="btn-login" onclick="navigateToLogin()">Login</a></li>
+            </ul>
+            
+            
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </div>
+        </div>
+        
+        
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#" class="btn-login" onclick="navigateToLogin()">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <section class="hero gradient-bg">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Master Languages with <span class="highlight">AI-Powered</span> Tutoring</h1>
+                <p class="hero-subtitle">AccentAceAI adapts to your learning style, providing personalized lessons, real-time pronunciation feedback, and conversational practice.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn-primary" onclick="navigateToLogin()">Start Learning Free</a>
+                    <a href="#features" class="btn-secondary">Explore Features</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card glassmorphism">
+                    <div class="language-options">
+                        <span class="lang-option active">🇺🇸 English</span>
+                        <span class="lang-option">🇪🇸 Spanish</span>
+                        <span class="lang-option">🇫🇷 French</span>
+                        <span class="lang-option">🇯🇵 Japanese</span>
+                    </div>
+                    <div class="ai-chat">
+                        <div class="message ai-message">
+                            <p>Hello! I'm your AI tutor. Ready to practice conversation today?</p>
+                        </div>
+                        <div class="message user-message">
+                            <p>Let's start with greetings in Spanish.</p>
+                        </div>
+                        <div class="typing-indicator">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="features" id="features">
+        <div class="section-header">
+            <h2 class="section-title">How AccentAceAI Works</h2>
+            <p class="section-subtitle">Our AI-powered platform provides a complete language learning experience</p>
+        </div>
+        
+        <div class="features-grid">
+                <div class="feature-card glassmorphism">
+                <div class="card-icon">
+                    <i class="fas fa-microphone-alt"></i>
+                </div>
+                <h3 class="card-title">Pronunciation Analysis</h3>
+                <p class="card-text">Get instant feedback on your pronunciation with advanced speech recognition technology.</p>
+                <div class="card-footer">
+                    <span class="card-tag">AI-Powered</span>
+                </div>
+            </div>
+            
+          
+            <div class="feature-card glassmorphism">
+                <div class="card-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3 class="card-title">Conversation Practice</h3>
+                <p class="card-text">Engage in realistic dialogues with our AI tutor on various topics and difficulty levels.</p>
+                <div class="card-footer">
+                    <span class="card-tag">Interactive</span>
+                </div>
+            </div>
+            
+                      <div class="feature-card glassmorphism">
+                <div class="card-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3 class="card-title">Personalized Lessons</h3>
+                <p class="card-text">AI adapts lessons to your progress, focusing on areas that need improvement.</p>
+                <div class="card-footer">
+                    <span class="card-tag">Adaptive</span>
+                </div>
+            </div>
+            
+          
+            <div class="feature-card glassmorphism">
+                <div class="card-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <h3 class="card-title">Gamified Learning</h3>
+                <p class="card-text">Earn points, complete challenges, and level up as you master new language skills.</p>
+                <div class="card-footer">
+                    <span class="card-tag">Fun</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="languages">
+        <div class="section-header">
+            <h2 class="section-title">Learn 20+ Languages</h2>
+            <p class="section-subtitle">From widely spoken to less common languages, we've got you covered</p>
+        </div>
+        
+        <div class="languages-container">
+            <div class="language-tags">
+                <span class="language-tag">English</span>
+                <span class="language-tag">Spanish</span>
+                <span class="language-tag">French</span>
+                <span class="language-tag">German</span>
+                <span class="language-tag">Japanese</span>
+                <span class="language-tag">Chinese</span>
+                <span class="language-tag">Korean</span>
+                <span class="language-tag">Italian</span>
+                <span class="language-tag">Portuguese</span>
+                <span class="language-tag">Russian</span>
+                <span class="language-tag">Arabic</span>
+                <span class="language-tag">Hindi</span>
+            </div>
+            
+            <div class="cta-card gradient-bg">
+                <h3>Ready to start your language journey?</h3>
+                <p>Join over 500,000 learners who have improved their language skills with AccentAceAI.</p>
+                <a href="#" class="btn-primary" onclick="navigateToLogin()">Get Started Now</a>
+            </div>
+        </div>
+    </section>
+
+   
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="logo footer-logo">
+                    <i class="fas fa-language logo-icon"></i>
+                    <span class="logo-text">Lingua<span class="logo-highlight">AI</span></span>
+                </div>
+                <p class="footer-text">AI-powered language learning for everyone, anywhere.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-title">Product</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Languages</a></li>
+                    <li><a href="#">Mobile App</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-title">Company</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-title">Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">GDPR</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2023 AccentAceAI. All rights reserved.</p>
+        </div>
+    </footer>
+
+   
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

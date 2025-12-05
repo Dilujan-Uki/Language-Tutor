@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AccentAceAI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="login-page">
+    <div class="login-container">
+        
+        <div class="login-left gradient-bg">
+            <div class="login-hero">
+                <a href="index.html" class="logo login-logo">
+                    <i class="fas fa-language logo-icon"></i>
+                    <span class="logo-text">AccentAce<span class="logo-highlight">AI</span></span>
+                </a>
+                
+                <h1 class="login-title">Continue Your Language Journey</h1>
+                <p class="login-subtitle">Sign in to access personalized lessons, track your progress, and practice with our AI tutor.</p>
+                
+                <div class="login-features">
+                    <div class="login-feature">
+                        <i class="fas fa-robot"></i>
+                        <span>AI-Powered Conversations</span>
+                    </div>
+                    <div class="login-feature">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Personalized Progress Tracking</span>
+                    </div>
+                    <div class="login-feature">
+                        <i class="fas fa-gamepad"></i>
+                        <span>Gamified Learning Experience</span>
+                    </div>
+                </div>
+                
+                <div class="login-stats">
+                    <div class="stat">
+                        <h3>500K+</h3>
+                        <p>Active Learners</p>
+                    </div>
+                    <div class="stat">
+                        <h3>20+</h3>
+                        <p>Languages</p>
+                    </div>
+                    <div class="stat">
+                        <h3>98%</h3>
+                        <p>Satisfaction Rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="login-right">
+            <div class="login-form-container glassmorphism">
+                <div class="form-header">
+                    <h2>Welcome Back</h2>
+                    <p>Sign in to your account</p>
+                </div>
+                
+                <form class="login-form" id="loginForm">
+                    <div class="form-group">
+                        <label for="loginEmail">Email Address</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="loginEmail" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="loginPassword">Password</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                            <button type="button" class="toggle-password" id="togglePassword">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="form-options">
+                        <div class="remember-me">
+                            <input type="checkbox" id="remember">
+                            <label for="remember">Remember me</label>
+                        </div>
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                    </div>
+                    
+                    <button type="submit" class="btn-login-form">Sign In</button>
+                    
+                    <div class="divider">
+                        <span>Or continue with</span>
+                    </div>
+                    
+                    <div class="social-login">
+                        <button type="button" class="social-btn google-btn">
+                            <i class="fab fa-google"></i>
+                            <span>Google</span>
+                        </button>
+                        <button type="button" class="social-btn github-btn">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </button>
+                    </div>
+                    
+                    <div class="form-footer">
+                        <p>Don't have an account? <a href="#" class="signup-link">Sign up now</a></p>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="back-home">
+                <a href="index.html"><i class="fas fa-arrow-left"></i> Back to Home</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/login.js"></script>
+</body>
+</html>
