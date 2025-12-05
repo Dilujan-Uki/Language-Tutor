@@ -7,7 +7,7 @@ GitHub Username:Dilujan-Uki
 
  ## GitHub Repository & Live Demo URLs
 # GitHub Repository: https://github.com/Dilujan-Uki/Language-Tutor
-# Github live Demo : 
+# Github live Demo : https://dilujan-uki.github.io/Language-Tutor/
 
 
 
